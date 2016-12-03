@@ -1,0 +1,166 @@
+body {
+	background: url(https://images.unsplash.com/photo-1451885140977-ed62a6b8744e?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=);
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.1em;
+}
+
+#content {
+	text-align: center;
+	padding: 25%;
+	padding-top: 10%;
+	color: orange;
+}
+
+.navbar-inverse {
+	background: orange;
+	border-bottom: 1px solid white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.orange {
+	font-weight: 800;
+	font-size: 1em;
+}
+
+.juice {
+	font-weight: 200;
+}
+
+.navbar-inverse .navbar-toggle {
+    border:1px solid white; 
+}
+
+ul.nav a:hover { 
+	color: #f07108 !important;
+ }
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #f07108;
+}
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+        position: absolute;
+        top: 50px;
+        left: 920px;
+        right: 50px;
+    }
+#custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color: #33a6cc;
+    }    
+
+
+h1 {
+	font-size: 7em;
+    position: center;
+}
+
+p {
+font-size: 2em;
+font-weight: 400;
+color: white;
+text-shadow: 0px 4px 3px rgba(1,1,1,5)
+}
+
+.web {
+	color: orange;
+}
+
+.button {
+	padding-top: 5%;
+	border: 10%;
+	margin: auto;
+}
+
+
+.btn-primary.raised {
+    box-shadow: 0 3px 0 0 #007299;
+}
+.btn-primary.raised:active, .btn-primary.raised.active {
+    background: #33a6cc;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+
+
+.btn.outline {
+	background: #f07108;
+	padding: 12px 22px;
+}
+
+.btn-warning.outline {
+	border: 1px solid #f07108;
+	color: white;
+}
+
+.btn-warning.outline:hover, .btn-warning.outline:focus, .btn-warning.outline:active, .btn-warning.outline.active, .open > .dropdown-toogle.btn-warning {
+	color: white;
+	background: orange;
+	border-color: white;
+}
+
+.btn-warning.outline:active, .btn-warning.outline.active {
+    border-color: white;
+    color: white;
+    background:none;
+    box-shadow: none;
+}
